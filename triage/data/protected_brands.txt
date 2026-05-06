@@ -1,0 +1,33 @@
+# Brands a phisher is most likely to impersonate. One per line, lowercase, registrable domain only.
+# The lookalike detector compares extracted domains against this list using
+# (a) homoglyph substitution, (b) Levenshtein distance, (c) suspicious-TLD swap.
+microsoft.com
+office365.com
+outlook.com
+google.com
+gmail.com
+apple.com
+icloud.com
+amazon.com
+aws.amazon.com
+paypal.com
+chase.com
+bankofamerica.com
+wellsfargo.com
+citibank.com
+docusign.com
+dropbox.com
+adobe.com
+linkedin.com
+github.com
+netflix.com
+fedex.com
+ups.com
+dhl.com
+usps.com
+irs.gov
+aave.com
+omahasteaks.com
+coinbase.com
+binance.com
+metamask.io

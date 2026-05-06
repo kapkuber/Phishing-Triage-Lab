@@ -1,0 +1,37 @@
+Return-Path: <bounces@evil-mailer.tk>
+Received: from mx-internal.victim.com (mx-internal.victim.com [10.0.0.5])
+	by inbox.victim.com (Postfix) with ESMTPS id ABC123
+	for <user@victim.com>; Sun, 12 Apr 2026 09:00:05 +0000 (UTC)
+Received: from mail.legit-looking.com (unknown [104.21.55.42])
+	by mx-internal.victim.com (Postfix) with ESMTP id DEF456
+	for <user@victim.com>; Sun, 12 Apr 2026 09:00:03 +0000 (UTC)
+Received: from spam-relay.example.net (spam-relay.example.net [185.220.101.7])
+	by mail.legit-looking.com (Postfix) with ESMTP id GHI789
+	for <user@victim.com>; Sun, 12 Apr 2026 09:00:01 +0000 (UTC)
+Authentication-Results: mx-internal.victim.com;
+	spf=fail smtp.mailfrom=evil-mailer.tk;
+	dkim=fail header.d=evil-mailer.tk;
+	dmarc=fail header.from=micros0ft.com
+From: "Jane Doe, CEO" <ceo@micros0ft.com>
+Reply-To: attacker@evil-mailer.tk
+To: user@victim.com
+Subject: Urgent wire transfer required
+Date: Sun, 12 Apr 2026 09:00:00 +0000
+Message-ID: <test-fixture-001@micros0ft.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY1"
+
+--BOUNDARY1
+Content-Type: text/plain; charset="utf-8"
+
+Hi, please process the wire below. Click hxxps://login[.]micros0ft[.]com/auth to confirm.
+Reach me at attacker@evil-mailer.tk if needed.
+
+--BOUNDARY1
+Content-Type: application/octet-stream; name="invoice.bin"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.bin"
+
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+--BOUNDARY1--

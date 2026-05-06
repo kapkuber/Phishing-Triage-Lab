@@ -1,0 +1,19 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.idea/
+.vscode/
+.claude/
+
+# Sample data is large and copyrighted upstream — fetch via scripts/fetch_samples.py
+samples/emails/*
+!samples/emails/.gitkeep
+samples/phishtank_cache.txt
+samples/urlscan_cache/
+
+# Generated reports (the 5 deep-dive reports are committed; raw runs are not)
+reports/_raw/

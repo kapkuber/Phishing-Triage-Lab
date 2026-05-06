@@ -1,0 +1,5 @@
+# Allowlist: registrable domains that are known-legit for the org being triaged.
+# If a From: address claims an executive title (CEO/CFO/etc.) but the domain isn't here,
+# the spoof detector flags it as possible executive impersonation.
+# Add your own org's domains, one per line, lowercase.
+example.com

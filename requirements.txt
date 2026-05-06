@@ -1,0 +1,8 @@
+dnspython>=2.6.0
+tldextract>=5.1.0
+rapidfuzz>=3.6.0
+yara-python>=4.5.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+rich>=13.7.0
+pytest>=8.0.0
